@@ -1,0 +1,382 @@
+/* tablet mode */
+@media (max-width: 1100px) {
+	.menu-icon.hide{
+		display: block;
+	}
+	.navigation-item,
+	.right-bar{
+		display: none;
+	}
+
+	.service{
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		text-align: center;
+		row-gap: 85px;
+	}
+
+	.box{
+		padding: 185px 5px;
+	}
+
+	.sec-banner{
+		flex-direction:column-reverse;
+		flex-wrap: wrap;
+		align-content: center;
+		text-align: center;
+	}
+
+	.sb-left h1{
+		font-size: 45px;
+		line-height: 3.5rem;
+	}
+
+	.sb-left p{
+		margin: auto;
+		font-size: 15px;
+		padding-top: 10px;
+	}
+
+	.mockup-rect{
+		width: 140px; height: 200px;
+	}
+
+	#circle-check{
+		width: 20%;
+	}
+
+	.os-banner-text{
+		font-size: 70px;
+		max-width: 850px;
+		padding: 0 20px;
+	}
+
+	.go-to.second{
+		font-size: 25px;
+	}
+
+	#author{
+		border-radius: 38%;
+		height: 300px;
+		width: 230px;
+	}
+
+	.author-name{
+		font-size: 28px;
+	}
+	.quo-text{
+		font-size: 28px;
+	}
+
+	.container{
+		padding-left:  50px;
+		padding-right: 50px;
+	}
+
+	@media (max-width: 895px) {
+		.main-footer{
+			flex-direction: column;
+			flex-wrap: wrap;
+			row-gap: 50px;
+			align-items: center;
+		}
+
+		.right-footer{
+			flex-direction: column;
+			flex-wrap: wrap;
+			align-items: center;
+			row-gap: 50px;
+		}
+
+		.main-banner h1{
+			font-size: 60px;
+		}
+
+		.main-banner p{
+			font-size: 30px;
+			max-width: 550px;
+			line-height: normal;
+		}
+
+		.main-banner input{
+			padding: 15px;
+			max-width: 350px;
+		}
+
+		.title-box h1{
+			font-size: 45px;
+		}
+
+		.box{
+			padding: 170px 0;
+		}
+
+		.sv-content h3{
+			font-size: 40px;
+		}
+
+		.sv-content p{
+			font-size: 15px;
+		}
+
+		.st-content p,
+		.address{
+			line-height: normal;
+		}
+
+		.st-content{
+			margin-top: 77px;
+		}
+
+		.title-box.right{
+			float: none;
+			padding-right: 0;
+		}
+	}
+
+	@media (max-width: 729px) {
+		.left-bar img{
+			width: 135px;
+		}
+		.main-banner h1{
+			font-size: 40px;
+			letter-spacing: normal;
+			line-height: normal;
+		}
+		.main-banner p{
+			font-size: 25px;
+		}
+		.main-banner input{
+			max-width: 300px;
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		.main-banner input::placeholder{
+			text-align: center;
+			font-size: 13px;
+		}
+
+		.main-banner button{
+			margin-top: 13px;
+			padding: 12px 15px;
+		}
+
+		.link-box{
+			font-size: 15px;
+		}
+
+		.container{
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.bottom-navigation a{
+			font-size: 15px;
+		}
+		.title-box h1 {
+			font-size: 40px;
+		}
+		.title-box p{
+			font-size: 13px;
+		}
+
+		.box{
+			max-width: 300px;
+		}
+
+		.box img{
+			max-width: 120px;
+			top: -75px;
+		}
+		.box h3{
+			font-size: 30px;
+		}
+
+		.sv-content h3{
+			font-size: 35px;
+			margin-bottom: 30px;
+		}
+
+		.sb-left h1{
+			font-size: 40px;
+		}
+
+		.os-banner-text{
+			font-size: 55px;
+		}
+		.go-to.second{
+			font-size: 20px;
+		}
+		.st-content p{
+			font-size: 15px;
+		}
+		.st-content h3{
+			font-size: 18px;
+		}
+
+		.author-name{
+			font-size: 25px;
+		}
+		.label-author{
+			font-size: 15px;
+		}
+		.quo-text{
+			font-size: 20px;
+			line-height: normal;
+		}
+		footer{
+			margin-top: 200px;
+		}
+		.legal-logo{
+			width: 200px;
+		}
+	}
+
+
+	/* For mobile*/
+	@media (max-width: 420px){
+		.top-wrapper{
+			height: auto;
+		}
+		.left-bar img{
+			width: 100px;
+		}
+		.burger-menu{
+			font-size: 25px;
+		}
+		.main-banner{
+			padding-top: 100px;
+			text-align: left;
+		}
+		.main-banner h1{
+			line-height: normal;
+			text-align: left;
+			font-size: 30px;
+		}
+		.main-banner p{
+			font-size: 17px;
+		}
+		.main-banner input{
+			max-width: 172px;
+		}
+		.link-container{
+			text-align: center;
+		}
+		.link-box{
+			font-size: 10px;
+		}
+		.outer-wrapper{
+			display: none;
+		}
+
+		.sv-container{
+			margin: auto;
+		}
+
+		.title-box h1{
+			font-size: 30px;
+		}
+
+		.box{
+			max-width: 198px;
+			padding: 115px 20px;
+		}
+
+		.box img{
+			max-width: 90px;
+			top: -50px;
+		}
+
+		.box h3{
+			font-size: 20px;
+			line-height: normal;
+			text-align: left;
+		}
+
+		.sv-content h3{
+			text-align: center;
+			font-size: 30px;
+			margin-bottom: 10px;
+			line-height: normal;
+		}
+
+		.legal-logo{
+			width: 100px;
+		}
+
+		.sb-left h1{
+			font-size: 25px;
+			padding-top: 20px;
+			line-height: normal;
+		}
+
+		.sb-left p{
+			padding-top: 25px;
+			line-height: normal;
+		}
+
+		.os-banner-text{
+			font-size: 35px;
+			margin-top: 74px;
+		}
+
+		.go-to.second{
+			font-size: 15px;
+		}
+		.online-service img{
+			margin: auto;
+			padding: 50px;
+		}
+
+		.btn-slideLeft,
+		.btn-slideRight{
+			padding: 0 15px;
+		}
+
+		.btn-slideLeft:hover,
+		.btn-slideRight:hover{
+			padding: 0 12px;
+		}
+
+		.st-content p{
+			font-size: 13px;
+		}
+
+		#author{
+			width: 171px;
+			height: 207px;
+		}
+
+		.author-name{
+			font-size: 20px;
+		}
+
+		.label-author{
+			font-size: 13px;
+		}
+
+		.quo-text{
+			font-size: 15px;
+		}
+
+		.left-footer{
+			width: 150px;
+		}
+
+		.right-footer{
+			font-size: 15px;
+		}
+
+		.footer-footer{
+			font-size: 15px;
+			flex-direction: column;
+			row-gap: 25px;
+		}
+
+		.icon-footer{
+			font-size: 20px;
+		}
+	}
+}
