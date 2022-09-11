@@ -253,6 +253,9 @@
 		padding-top: 100px;
 		row-gap: 36px;
 	}
+	.online-service img{
+		margin: 68px 0;
+	}
 	.sv-content h3{
 		font-size: 25px;
 	}
