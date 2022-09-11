@@ -1,11 +1,35 @@
 /* tablet mode */
-@media (max-width: 1100px) {
+@media (max-width: 1080px) {
 	.menu-icon.hide{
 		display: block;
 	}
+
 	.navigation-item,
-	.right-bar{
+	.left-bar{
 		display: none;
+	}
+
+	.right-bar a{
+		padding: 5px 10px;
+		font-size: 15px;
+	}
+
+	.nav-logo-icon{
+		display: block;
+		width: 32px;
+	}
+
+	.main-banner h1{
+		font-size: 60px;
+		line-height: normal;
+	}
+
+	.main-banner p{
+		font-size: 38px;
+	}
+
+	.main-banner input{
+		margin-top: 37px;
 	}
 
 	.service{
@@ -74,309 +98,211 @@
 		padding-right: 50px;
 	}
 
-	@media (max-width: 895px) {
+	@media (max-width: 860px) {
+
 		.main-footer{
 			flex-direction: column;
-			flex-wrap: wrap;
-			row-gap: 50px;
-			align-items: center;
-		}
-
-		.right-footer{
-			flex-direction: column;
-			flex-wrap: wrap;
-			align-items: center;
 			row-gap: 50px;
 		}
 
 		.main-banner h1{
-			font-size: 60px;
-		}
-
-		.main-banner p{
-			font-size: 30px;
-			max-width: 550px;
+			font-size: 35px;
 			line-height: normal;
-		}
-
-		.main-banner input{
-			padding: 15px;
-			max-width: 350px;
-		}
-
-		.title-box h1{
-			font-size: 45px;
-		}
-
-		.box{
-			padding: 170px 0;
-		}
-
-		.sv-content h3{
-			font-size: 40px;
-		}
-
-		.sv-content p{
-			font-size: 15px;
-		}
-
-		.st-content p,
-		.address{
-			line-height: normal;
-		}
-
-		.st-content{
-			margin-top: 77px;
-		}
-
-		.title-box.right{
-			float: none;
-			padding-right: 0;
-		}
-	}
-
-	@media (max-width: 729px) {
-		.left-bar img{
-			width: 135px;
-		}
-		.main-banner h1{
-			font-size: 40px;
 			letter-spacing: normal;
-			line-height: normal;
 		}
 		.main-banner p{
-			font-size: 25px;
-		}
-		.main-banner input{
-			max-width: 300px;
-			text-align: center;
-			padding-top: 10px;
-			padding-bottom: 10px;
-		}
-
-		.main-banner input::placeholder{
-			text-align: center;
-			font-size: 13px;
-		}
-
-		.main-banner button{
-			margin-top: 13px;
-			padding: 12px 15px;
-		}
-
-		.link-box{
-			font-size: 15px;
-		}
-
-		.container{
-			padding-left: 10px;
-			padding-right: 10px;
+			font-size: 20px;
+			line-height: normal;
 		}
 		.bottom-navigation a{
 			font-size: 15px;
+			line-height: normal;
 		}
-		.title-box h1 {
-			font-size: 40px;
+		.title-box h1{
+			font-size: 35px;
+			line-height: normal;
 		}
-		.title-box p{
-			font-size: 13px;
-		}
-
 		.box{
-			max-width: 300px;
+			padding: 152px 5px;
+			max-width: 278px;
 		}
-
 		.box img{
-			max-width: 120px;
-			top: -75px;
+			top: -73px;
+			max-width: 97px;
 		}
 		.box h3{
-			font-size: 30px;
+			font-size: 25px;
+			line-height: normal;
 		}
-
 		.sv-content h3{
 			font-size: 35px;
-			margin-bottom: 30px;
+			margin-bottom: 13px;
+			line-height: normal;
 		}
-
+		.legal-logo{
+			width: 130px;
+		}
 		.sb-left h1{
-			font-size: 40px;
+			font-size: 30px;
+			padding-top: 3rem;
+			line-height: normal;
 		}
-
 		.os-banner-text{
-			font-size: 55px;
+			font-size: 45px;
+			line-height: normal;
 		}
 		.go-to.second{
 			font-size: 20px;
 		}
-		.st-content p{
+		.title-box.right{
+			padding: 0;
+			float: none;
+		}
+		.st-content p, .address{
 			font-size: 15px;
+			line-height: normal;
 		}
 		.st-content h3{
-			font-size: 18px;
+			font-size: 20px;
+			line-height: normal;
 		}
-
+		#author{
+			height: 210px;
+			width: 170px;
+		}
 		.author-name{
-			font-size: 25px;
+			font-size: 20px;
+			line-height: normal;
 		}
 		.label-author{
 			font-size: 15px;
+			line-height: normal;
 		}
 		.quo-text{
 			font-size: 20px;
 			line-height: normal;
-		}
-		footer{
-			margin-top: 200px;
-		}
-		.legal-logo{
-			width: 200px;
 		}
 	}
+}
 
-
-	/* For mobile*/
-	@media (max-width: 420px){
-		.top-wrapper{
-			height: auto;
-		}
-		.left-bar img{
-			width: 100px;
-		}
-		.burger-menu{
-			font-size: 25px;
-		}
-		.main-banner{
-			padding-top: 100px;
-			text-align: left;
-		}
-		.main-banner h1{
-			line-height: normal;
-			text-align: left;
-			font-size: 30px;
-		}
-		.main-banner p{
-			font-size: 17px;
-		}
-		.main-banner input{
-			max-width: 172px;
-		}
-		.link-container{
-			text-align: center;
-		}
-		.link-box{
-			font-size: 10px;
-		}
-		.outer-wrapper{
-			display: none;
-		}
-
-		.sv-container{
-			margin: auto;
-		}
-
-		.title-box h1{
-			font-size: 30px;
-		}
-
-		.box{
-			max-width: 198px;
-			padding: 115px 20px;
-		}
-
-		.box img{
-			max-width: 90px;
-			top: -50px;
-		}
-
-		.box h3{
-			font-size: 20px;
-			line-height: normal;
-			text-align: left;
-		}
-
-		.sv-content h3{
-			text-align: center;
-			font-size: 30px;
-			margin-bottom: 10px;
-			line-height: normal;
-		}
-
-		.legal-logo{
-			width: 100px;
-		}
-
-		.sb-left h1{
-			font-size: 25px;
-			padding-top: 20px;
-			line-height: normal;
-		}
-
-		.sb-left p{
-			padding-top: 25px;
-			line-height: normal;
-		}
-
-		.os-banner-text{
-			font-size: 35px;
-			margin-top: 74px;
-		}
-
-		.go-to.second{
-			font-size: 15px;
-		}
-		.online-service img{
-			margin: auto;
-			padding: 50px;
-		}
-
-		.btn-slideLeft,
-		.btn-slideRight{
-			padding: 0 15px;
-		}
-
-		.btn-slideLeft:hover,
-		.btn-slideRight:hover{
-			padding: 0 12px;
-		}
-
-		.st-content p{
-			font-size: 13px;
-		}
-
-		#author{
-			width: 171px;
-			height: 207px;
-		}
-
-		.author-name{
-			font-size: 20px;
-		}
-
-		.label-author{
-			font-size: 13px;
-		}
-
-		.quo-text{
-			font-size: 15px;
-		}
-
-		.left-footer{
-			width: 150px;
-		}
-
-		.right-footer{
-			font-size: 15px;
-		}
-
-		.footer-footer{
-			font-size: 15px;
-			flex-direction: column;
-			row-gap: 25px;
-		}
-
-		.icon-footer{
-			font-size: 20px;
-		}
+/* mobile mode */
+@media (max-width: 529px) {
+	.top-wrapper{
+		padding-bottom: 20px;
+		box-shadow: 0 1px 10px 1px rgba(0,0,0, 0.1);
+	}
+	.container{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.main-banner{
+		padding-bottom: 0;
+	}
+	.main-banner input{
+		width: 100%;
+		text-align: center;
+	}
+	.main-banner input::placeholder{
+		text-align: center;
+		font-size: 1rem;
+	}
+	.main-banner button{
+		margin: auto;
+		width: 100%;
+		display: block;
+		margin-top: 5px;
+		font-size: 1rem;
+	}
+	.link-box{
+		font-size: 12px;
+		text-align: center;
+	}
+	.link-box a{
+		padding: 0 10px;
+		text-align: center;
+	}
+	.sticky{
+		visibility: hidden;
+		display: none;
+	}
+	.title-box h1{
+		padding-top: 10px;
+		font-size: 23px;
+	}
+	.title-box p,
+	.sv-content p, 
+	.sb-left p, .address,
+	.st-content p, .label-author{
+		font-size: 12px;
+		line-height: normal;
+	}
+	.box{
+		padding: 87px 0;
+		width: 150px;
+		border-radius: 34px;
+	}
+	.box img{
+		top: -37px;
+    	max-width: 53px;
+	}
+	.box h3{
+		font-size: 1rem;
+	}
+	.service{
+		padding-top: 100px;
+		row-gap: 36px;
+	}
+	.sv-content h3{
+		font-size: 25px;
+	}
+	.bg-banner{
+		margin-top: 55px;
+		border-top-left-radius: 34px;
+   		border-top-right-radius: 34px;
+	}
+	.sb-left h1{
+		font-size: 20px;
+    	padding-top: 2rem;
+	}
+	.go-to, .go-to.second,
+	.quo-text{
+		font-size: 15px;
+	}
+	.os-banner-text{
+		font-size: 25px;
+		margin-top: 55px;
+		margin-bottom: 10px;
+	}
+	.slide-container.container{
+		padding: 0;
+	}
+	.st-content h3,
+	.author-name{
+		font-size: 18px;
+	}
+	footer{
+		margin-top: 191px;
+	}
+	.left-footer{
+		width: 120px;
+	}
+	.main-footer{
+		justify-content: center;
+		align-items: center;
+		font-size: 15px;
+	}
+	.right-footer{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		row-gap: 30px;
+	}
+	.footer-footer{
+		flex-direction: column-reverse;
+		font-size: 15px;
+		row-gap: 30px;
+	}
+	.icon-footer{
+		font-size: 25px;
 	}
 }
